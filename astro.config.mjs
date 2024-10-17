@@ -80,30 +80,6 @@ export default defineConfig({
     '/mit': {
       status: 302,
       destination: '/other/mitigation'
-    },
-    '/mitsheet': {
-      status: 302,
-      destination: 'https://tinyurl.com/ucobmitty'
-    },
-    '/pastebin': {
-      status: 302,
-      destination: 'https://pastebin.com/VMayjagn'
-    },
-    '/cobkisser': {
-      status: 302,
-      destination: 'https://pastebin.com/VMayjagn'
-    },
-    '/baits': {
-      status: 302,
-      destination: 'https://www.youtube.com/watch?v=9DDTla_pbL0'
-    },
-    '/dodges': {
-      status: 302,
-      destination: 'https://www.youtube.com/watch?v=ZbrTfoIxRdE'
-    },
-    '/resources': {
-      status: 302,
-      destination: 'https://resources.ucob.guide'
     }
   }
 });
