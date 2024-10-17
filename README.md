@@ -5,8 +5,8 @@
 Get started by running the following commands:
 
 ```shell
-git clone git@github.com:underlost/astro-just-docs.git
-cd astro-just-docs
+git clone git@github.com:Yhumi/ucob-guide.git
+cd ucob-guide
 yarn install
 yarn dev
 ```
