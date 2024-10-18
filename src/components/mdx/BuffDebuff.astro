@@ -1,0 +1,11 @@
+---
+import { Image } from 'astro:assets';
+
+const props = Astro.props;
+
+interface Props {
+  name?: string;
+  img?: ImageMetadata;
+}
+---
+<Image class="buffdebuff" src={props.img} alt={props.name} /><i>{props.name}</i>
