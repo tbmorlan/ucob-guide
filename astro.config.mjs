@@ -79,7 +79,11 @@ export default defineConfig({
     },
     '/mit': {
       status: 302,
-      destination: '/other/mitigation'
+      destination: '/general/mitigation'
+    },
+    '/lb3': {
+      status: 302,
+      destination: '/general/lbgen'
     }
   }
 });
